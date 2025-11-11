@@ -8,13 +8,12 @@ https://github.com/Shubhanshu007iit/National-Drone-Surveillance-Dashboard/blob/m
 # Data Processing with Python
 
 Before visualization, the dataset was cleaned and transformed using Python. The script detects potential drone intrusions based on flight speed and altitude.
+https://github.com/Shubhanshu007iit/National-Drone-Surveillance-Dashboard/blob/main/Screenshot%202025-11-11%20225751.png
+
 # config: edit thresholds if needed
 SPEED_THRESHOLD = 200        # km/h
 ALTITUDE_THRESHOLD = 50      # meters
 UNKNOWN_WEIGHT = 1           # only 'Unknown' considered for intrusion rule
-
-
-https://github.com/Shubhanshu007iit/National-Drone-Surveillance-Dashboard/blob/main/Screenshot%202025-11-11%20225751.png
 
 
 # load
