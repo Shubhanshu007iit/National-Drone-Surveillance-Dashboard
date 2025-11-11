@@ -2,6 +2,9 @@
 The National Drone Surveillance Dashboard is an interactive Power BI project that tracks drone operations across regions. It shows flight paths, mission types, and airbase coverage, helping identify safe and unsafe zones through dynamic maps and charts for better national surveillance analysis.
 
 
+https://github.com/Shubhanshu007iit/National-Drone-Surveillance-Dashboard/blob/main/Screenshot%202025-11-11%20174427.png
+
+
 # Data Processing with Python
 
 Before visualization, the dataset was cleaned and transformed using Python. The script detects potential drone intrusions based on flight speed and altitude.
@@ -9,6 +12,9 @@ Before visualization, the dataset was cleaned and transformed using Python. The 
 SPEED_THRESHOLD = 200        # km/h
 ALTITUDE_THRESHOLD = 50      # meters
 UNKNOWN_WEIGHT = 1           # only 'Unknown' considered for intrusion rule
+
+
+
 
 # load
 df = pd.read_csv("/content/india_drone_alerts.csv")
