@@ -14,6 +14,7 @@ ALTITUDE_THRESHOLD = 50      # meters
 UNKNOWN_WEIGHT = 1           # only 'Unknown' considered for intrusion rule
 
 
+https://github.com/Shubhanshu007iit/National-Drone-Surveillance-Dashboard/blob/main/Screenshot%202025-11-11%20225751.png
 
 
 # load
